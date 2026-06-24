@@ -27,6 +27,7 @@ Additional weight is given to candidates whose profiles indicate production depl
 ## Output
 
 The script generates a ranked list of the top 100 candidates in the required submission format.
+submission_fixed.csv
 
 ## Run
 
