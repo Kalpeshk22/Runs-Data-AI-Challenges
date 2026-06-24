@@ -1,18 +1,18 @@
-team_name: "Kalpesh"
+team_name: "Code404_Found Team"
 
 primary_contact:
   name: "Kalpesh Kshirsagar"
-  email: "your-email@gmail.com"
-  phone: "+91-XXXXXXXXXX"
+  email: "kalpeshkshirsagar7824@gmail.com"
+  phone: "+91-7058998736"
 
 team_members:
   - name: "Kalpesh Kshirsagar"
-    email: "your-email@gmail.com"
-    role: "ML Engineer"
+    email: "kalpeshkshirsagar7824@gmail.com"
+    role: "Full Stack Engineer"
 
 github_repo: "https://github.com/USERNAME/India_runs_data_and_ai_challenge"
 
-sandbox_link: "https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID"
+sandbox_link: "https://colab.research.google.com/drive/15Q1Dy0Y_etaCUIyviCP1fN7W_gZ5i0__?usp=sharing"
 
 reproduce_command: "python rank_candidates.py"
 
