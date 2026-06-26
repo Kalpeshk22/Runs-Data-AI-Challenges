@@ -24,6 +24,20 @@ The scoring model prioritizes candidates with demonstrated experience in:
 
 Additional weight is given to candidates whose profiles indicate production deployment experience and strong recruiter engagement signals.
 
+# Redrob Hackathon Submission
+
+## Requirements
+
+pip install -r requirements.txt
+
+## Run
+
+python rank_candidates.py
+
+## Validate
+
+python validate_submission.py submission_fixed.csv
+
 ## Output
 
 The script generates a ranked list of the top 100 candidates in the required submission format.
