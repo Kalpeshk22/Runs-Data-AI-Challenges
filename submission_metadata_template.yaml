@@ -10,6 +10,18 @@ team_members:
     email: "kalpeshkshirsagar7824@gmail.com"
     role: "Full Stack Engineer"
 
+    name: "Jyotirbindu Kamod"
+    email: "jyotirbindukamod@gmail.com"
+    role: "Full Stack Engineer"
+
+    name: "Aditya Korale"
+    email: "adityakorale2@gmail.com"
+    role: "Full Stack Engineer"
+
+    name: "Tina Deore"
+    email: "tinadeore17@gmail.com"
+    role: "Full Stack Engineer"
+
 github_repo: "https://github.com/USERNAME/India_runs_data_and_ai_challenge"
 
 sandbox_link: "https://colab.research.google.com/drive/15Q1Dy0Y_etaCUIyviCP1fN7W_gZ5i0__?usp=sharing"
