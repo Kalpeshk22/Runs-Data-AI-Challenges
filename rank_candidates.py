@@ -131,17 +131,24 @@ with open("candidates.jsonl", "r", encoding="utf-8") as f:
 
         score, reasoning = score_candidate(c)
 
+        csv_score = round(score / 100, 4)
+
         results.append({
             "candidate_id": c["candidate_id"],
-            "score": score,
+            "score": csv_score,
             "reasoning": reasoning,
             "title": c["profile"]["current_title"]
         })
 
 
+# results.sort(
+#     key=lambda x: x["score"],
+#     reverse=True
+# )
+
+# Sort by score descending, then candidate_id ascending
 results.sort(
-    key=lambda x: x["score"],
-    reverse=True
+    key=lambda x: (-x["score"], x["candidate_id"])
 )
 
 top100 = results[:100]
@@ -167,7 +174,7 @@ with open(
         writer.writerow([
             row["candidate_id"],
             rank,
-            round(row["score"] / 100, 4),
+            row["score"],
             row["reasoning"]
         ])
 
