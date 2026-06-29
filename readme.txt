@@ -35,8 +35,8 @@ pip install -r requirements.txt
 python rank_candidates.py
 
 ## Validate
-
-python validate_submission.py submission_fixed.csv
+python validate_submission.py submission.csv - For New File
+python validate_submission.py submission_fixed.csv - For Old File Already Created
 
 ## Output
 
